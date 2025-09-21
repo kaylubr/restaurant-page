@@ -2,6 +2,7 @@ import "./style.css";
 import Home from './home.js';
 import About from './about.js';
 import Contact from './contact.js';
+import Menu from './menu.js';
 
 const nav = document.querySelector('nav');
 const content = document.querySelector('.content');
@@ -19,6 +20,7 @@ nav.addEventListener('click', event => {
       Home();
       break;
     case 'menu':
+      Menu();
       break;
     case 'about':
       About();
@@ -30,4 +32,4 @@ nav.addEventListener('click', event => {
 })
 
 // Renders home page at initial render
-// document.addEventListener('DOMContentLoaded', () => Home());
+document.addEventListener('DOMContentLoaded', () => Home());
