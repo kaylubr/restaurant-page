@@ -1,8 +1,8 @@
 import "./style.css";
-import Home from './home.js';
-import About from './about.js';
-import Contact from './contact.js';
-import Menu from './menu.js';
+import Home from './components/home.js';
+import About from './components/about.js';
+import Contact from './components/contact.js';
+import Menu from './components/menu.js';
 
 const nav = document.querySelector('nav');
 const content = document.querySelector('.content');

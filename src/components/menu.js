@@ -1,11 +1,11 @@
-import Sisig from './img/sisig.jpg';
-import Gambas from './img/gambas-al-ajillo.jpg';
-import Bistek from './img/bistek-tagalog.jpg';
-import CrispyPata from './img/crispy-pata.jpg';
-import ChickenInasal from './img/chicken-inasal.jpg';
-import BeefPares from './img/beef-pares.jpg';
-import UbeCheesecake from './img/ube-cheesecake.jpg';
-import LecheFlan from './img/creamy-leche-flan.jpg';
+import Sisig from '../img/sisig.jpg';
+import Gambas from '../img/gambas-al-ajillo.jpg';
+import Bistek from '../img/bistek-tagalog.jpg';
+import CrispyPata from '../img/crispy-pata.jpg';
+import ChickenInasal from '../img/chicken-inasal.jpg';
+import BeefPares from '../img/beef-pares.jpg';
+import UbeCheesecake from '../img/ube-cheesecake.jpg';
+import LecheFlan from '../img/creamy-leche-flan.jpg';
 
 const menu = [
   {
@@ -57,7 +57,6 @@ const menu = [
     url: LecheFlan,
   },
 ];
-
 
 function renderMenu() {
   const content = document.querySelector('.content');
