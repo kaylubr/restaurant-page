@@ -146,18 +146,15 @@ nav > button:hover {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  gap: 0.7rem;
   border-radius: 6px;
-  gap: 1rem;
   background-color: var(--primary-dark);
   padding: 1rem;
   font-size: 1.5rem;
   justify-self: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   cursor: pointer;
-}
-
-.card > p {
-  flex: 1;
 }
 
 .card > p:first-of-type {
