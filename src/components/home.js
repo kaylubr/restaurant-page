@@ -11,7 +11,7 @@ function renderHome() {
   caption.textContent = 'YOUR NEXT GREAT MEAL STARTS HERE.';
 
   const button = document.createElement('button');
-  button.textContent = 'BOOK AT TABLE NOW';
+  button.textContent = 'BOOK A TABLE NOW';
   
   container.append(header, caption, button);
   content.append(container);

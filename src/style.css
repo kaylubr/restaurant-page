@@ -9,8 +9,6 @@
 :root {
   --primary-dark: #850E35;
   --primary-dark-hover: #6c0d2d;
-  --primary-light: #EE6983;
-  --secondary-dark: #FFC4C4;
   --secondary-light: #FFF5E4;
 }
 
@@ -233,7 +231,7 @@ nav > button:hover {
   background-color: var(--primary-dark);
   border-radius: 6px;
   padding: 2rem 3rem;
-  text-align: center;
+  text-align: justify;
 }
 
 #contact-container > div > h1 {
