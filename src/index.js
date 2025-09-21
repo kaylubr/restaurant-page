@@ -7,11 +7,13 @@ const nav = document.querySelector('nav');
 const content = document.querySelector('.content');
 
 nav.addEventListener('click', event => {
+  const tab = event.target.id;
 
+  if (!tab) return;
+  
   // Resets page every click
   content.textContent = '';
-
-  const tab = event.target.id;
+  
   switch(tab) {
     case 'home':
       Home();
