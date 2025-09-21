@@ -94,6 +94,60 @@ nav > button:hover {
   cursor: pointer;
 }
 
+/* Menu */
+
+#menu-container {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/contact-background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 92px;
+  min-height: 100vh;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#menu-container > h1 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+#menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  gap: 12px;
+  background-color: var(--primary-dark);
+  padding: 1rem;
+  font-size: 2rem;
+  justify-self: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+
+.card > p {
+  flex: 1;
+}
+
+.card > p:first-of-type {
+  font-weight: bolder;
+}
+
+.card > p:not(:nth-child(2)) {
+  font-size: 1rem;
+}
+
+.card > img {
+  width: 100%;
+}
+
 /* About */
 #about-container {
   display: flex;
