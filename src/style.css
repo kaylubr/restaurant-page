@@ -33,6 +33,7 @@ header {
 
 header > img {
   width: 3vw;
+  min-height: 60px;
 }
 
 nav {
@@ -42,7 +43,7 @@ nav {
 }
 
 nav > button {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: var(--primary-dark);
   border: none;
   color: var(--secondary-light);
@@ -60,7 +61,7 @@ nav > button:hover {
 }
 
 /* Home page */
-#home {
+#home-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,15 +74,15 @@ nav > button:hover {
   min-height: 100vh;
 }
 
-#home > h1 {
+#home-container > h1 {
   font-size: 6rem;
 }
 
-#home > p {
+#home-container > p {
   font-size: 2rem;
 }
 
-#home > button {
+#home-container > button {
   background-color: var(--primary-dark);
   color: var(--secondary-light);
   border: none;
@@ -89,7 +90,7 @@ nav > button:hover {
   font-size: 2rem;
 }
 
-#home > button:hover {
+#home-container > button:hover {
   background-color: var(--primary-dark-hover);
   cursor: pointer;
 }
