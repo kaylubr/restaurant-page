@@ -15,9 +15,7 @@
 }
 
 body {
-  position: relative;
   min-height: 100vh;
-  background-color: var(--secondary-light);
 }
 
 /* Header */
@@ -88,9 +86,91 @@ nav > button:hover {
   border: none;
   padding: 0.5rem 1rem;
   font-size: 2rem;
+  border-radius: 6px;
 }
 
 #home-container > button:hover {
   background-color: var(--primary-dark-hover);
   cursor: pointer;
+}
+
+/* About */
+#about-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 92px;
+  padding-left: 10rem;
+  padding-right: 55vw;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  gap: 1rem;
+}
+
+#about-container > * {
+  align-self: start;
+}
+
+#about-container > h1 {
+  font-size: 3rem;
+}
+
+#about-container > p {
+  font-size: 1.5rem;
+}
+
+#about-container > button {
+  background-color: var(--primary-dark);
+  color: var(--secondary-light);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+#about-container > button:hover {
+  background-color: var(--primary-dark-hover);
+  cursor: pointer;
+}
+
+/* Contact */
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/contact-background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 92px;
+  min-height: 100vh;
+  color: #fff;
+}
+
+#contact-container > div {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-dark);
+  border-radius: 6px;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+#contact-container > div > h1 {
+  font-size: 3rem;
+}
+
+#contact-container > div > p:nth-child(2) {
+  margin-top: 1rem;  
+}
+
+#contact-container > div > p:nth-child(4),
+#contact-container > div > p:nth-child(6) {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }

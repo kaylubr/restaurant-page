@@ -1,4 +1,4 @@
-export default function renderHome() {
+function renderHome() {
   const content = document.querySelector('.content');
 
   const container = document.createElement('div');
@@ -16,3 +16,5 @@ export default function renderHome() {
   container.append(header, caption, button);
   content.append(container);
 }
+
+export default renderHome;
